@@ -9,7 +9,10 @@ void main() {
 
   // Using Map constructor
   Map<String, int> scores = Map();
-  
+   
+
+
+
   // Using Map.from()
   Map<String, int> existingScores = {'Math': 95, 'Science': 90};
   Map<String, int> newScores = Map.from(existingScores);
