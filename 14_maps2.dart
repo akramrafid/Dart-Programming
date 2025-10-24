@@ -70,4 +70,15 @@ void main() {
   // Print final company structure
   print('\nFinal Company Structure:');
   print(company);
+
+  //Loop through map using forEach
+  (company['employees'] as Map<String, dynamic>).forEach((key, value) {
+    print('Employee ID: $key, Name: ${value['name']}, Position: ${value['position']}');
+  });
+
+  //Loop using entries (more control)
+  for (var entry in (company['employees'] as Map<String, dynamic>).entries) {
+    print('Employee ID: ${entry.key}, Name: ${entry.value['name']}, Position: ${entry.value['position']}');
+  }
+  
 }
