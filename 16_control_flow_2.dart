@@ -43,7 +43,7 @@ void main (){
     print('Iteration: $i');
   }
 
-  //nested loops example
+  // nested loops example  
   print('\nNested Loops Example:');
   for (var i = 0; i < 3; i++) {
     for (var j = 0; j < 2; j++) {
@@ -90,8 +90,7 @@ void main (){
     }
   }
 
-  print('\nEnd of Prime Numbers List');
 
-  
+  print('\nEnd of Prime Numbers List');
 
 }
