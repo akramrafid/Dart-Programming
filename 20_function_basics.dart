@@ -1,16 +1,14 @@
 // Funtion declaration and innovation in Dart
 
 void main() {
-  // Function declaration
   int add(int a, int b) {
     return a + b;
   }
 
-  // Calling the function
   int sum = add(5, 10);
-  print('Sum: $sum'); // Output: Sum: 15
+  print('Sum: $sum'); 
 
-  // Function with optional parameters
+  
   String greet(String name, [String? greeting]) {
     if (greeting != null) {
       return '$greeting, $name!';
@@ -19,10 +17,10 @@ void main() {
     }
   }
 
-  print(greet('Alice')); // Output: Hello, Alice!
-  print(greet('Bob', 'Good morning')); // Output: Good morning, Bob!
+  print(greet('Alice')); 
+  print(greet('Bob', 'Good morning')); 
 
-  // Function with named parameters
+  
   String introduce({required String name, int? age}) {
     if (age != null) {
       return 'My name is $name and I am $age years old.';
@@ -31,11 +29,11 @@ void main() {
     }
   }
 
-  print(introduce(name: 'Charlie')); // Output: My name is Charlie.
-  print(introduce(name: 'Diana', age: 30)); // Output: My name is Diana and I am 30 years old.
+  print(introduce(name: 'Charlie')); 
+  print(introduce(name: 'Diana', age: 30)); 
 }
 
-// return types in functions
+
 int multiply(int a, int b) {
   return a * b;
 }
