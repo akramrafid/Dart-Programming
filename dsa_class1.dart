@@ -54,4 +54,32 @@ void main (){
     print (i);
   }
 
+  Product product1 = Product (1, "Laptop", 50000);
+  Product product2 = Product (2, "Mobile", 20000);
+ 
+  print (product1);
+  print (product2);
+
 } 
+
+class Product {
+    int ? ProductId;
+    String ? ProductName;
+    int ? price;
+
+
+    Product (this.ProductId, this.ProductName, this.price);
+
+    @override
+    String toString (){
+      return 'ProductId: $ProductId, ProductName: $ProductName, Price: $price';
+    }
+
+
+
+
+
+
+
+
+  }
