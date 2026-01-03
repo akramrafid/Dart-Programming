@@ -63,6 +63,9 @@ void main (){
    List <int> numbers = [1,2,3,4,5];
    numbers.addAll([6,7,8]);
     print (numbers);
+
+    int indexOf7 = numbers.indexOf(7);
+    print ('Index of 7 is: $indexOf7');
  
 } 
 
