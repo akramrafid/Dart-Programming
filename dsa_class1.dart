@@ -66,7 +66,8 @@ void main (){
 
     int indexOf7 = numbers.indexOf(7);
     print ('Index of 7 is: $indexOf7');
- 
+    numbers [2] = 10;
+    print (numbers);
 } 
 
 class Product {
