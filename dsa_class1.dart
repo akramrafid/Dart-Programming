@@ -42,4 +42,16 @@ void main (){
   var nameLength = name1.length;
   print (nameLength);
 
+
+  for (int i = 0; i <= 5; i++){
+    if (i == 3) continue;
+    print (i);
+  }
+
+  //write a for loop using fo in to print numbers from 1 to 5
+  for (var i in [1,2,3,4,5]){
+    if (i == 3) continue;
+    print (i);
+  }
+
 } 
