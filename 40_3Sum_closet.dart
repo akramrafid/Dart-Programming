@@ -39,7 +39,7 @@ int threeSumClosest(List<int> nums, int target) {
 }
 
 void main() {
-  // Test case 1
+  
   List<int> nums1 = [-1, 2, 1, -4];
   int target1 = 1;
   int result1 = threeSumClosest(nums1, target1);
