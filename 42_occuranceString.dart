@@ -12,9 +12,6 @@ int strStr(String haystack, String needle) {
   return -1;
 }
 
-/// Optimized approach using KMP (Knuth-Morris-Pratt) algorithm
-/// Time Complexity: O(n + m) where n = haystack length, m = needle length
-/// Space Complexity: O(m) for LPS array
 int strStrKMP(String haystack, String needle) {
   if (needle.isEmpty) return 0;
   if (haystack.length < needle.length) return -1;
